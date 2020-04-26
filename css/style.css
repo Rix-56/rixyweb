@@ -1,0 +1,85 @@
+/*
+style.css
+---------
+RCSS Theme
+Utilisé sur Rix Universe
+Copyright 2020-2021 Rix56
+*/
+
+html{
+	font-family: "Gill Sans", sans-serif;
+	text-align: center;
+    text-shadow: 1px 1px 2px #908a8a;
+}
+
+nav.menu ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav.menu ul li a{
+	background-color: #bb97ad;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+nav.menu ul li:hover a.menu{
+	color: #bb97ad;
+	background-color: #39ffac;
+	transition: 0.5s all;
+	border-radius: 3px;
+}
+
+nav.menu ul li:hover a.menu2{
+	color: #bb97ad;
+	background-color: #000;
+	transition: 0.5s all;
+	border-radius: 3px;
+}
+
+nav.menu ul li:hover a.menu3{
+	color: #bb97ad;
+	background-color: #fff;
+	transition: 0.5s all;
+}
+
+a.menu{
+	color: #39ffac;
+}
+
+a.menu2{
+	color: #000;
+}
+
+a.menu3{
+	color: #fff;
+}
+
+p{
+	color: #258181
+}
+
+h2{
+	color: #bdb06d
+}
+
+a{
+	color: #c9331a
+}
+
+div{
+	color: #023c3a
+}
+
+a.cat-dev{
+	color: #c9331a
+}
+
+body{
+	background: center / 150% no-repeat url("/home/rix56/Bureau/Site web/images/arriereplan.jpg");
+}
+
+div#box div{
+	display: inline-block;{
+}
